@@ -1,0 +1,33 @@
+.img-card {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+  }
+  
+  .card-img {
+    display: flex;
+    justify-content: center;
+  }
+  .imgs {
+    justify-content: center;
+  }
+  .button1 {
+    justify-content: space-around;
+  }
+  .button {
+    justify-content: center;
+    align-items: center;
+  }
+  .card-content {
+    margin: 0;
+    padding: 0;
+    height: 252px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-content1{
+    height: 176px;
+    width: 198px;
+  }

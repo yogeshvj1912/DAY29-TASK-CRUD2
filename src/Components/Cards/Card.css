@@ -1,0 +1,65 @@
+.cards {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(134, 132, 132, 0.5);
+  }
+  .card-title,.card-icon,.ptag{
+      padding:10px ;
+  }
+  .cards-data{
+      justify-content: space-between;
+  }
+  .progress-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media only screen and (min-width: 662px) {
+    .progress-card {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  @media only screen and (min-width: 663px) {
+    .progress-card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    .progress-card {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .shadow {
+    box-shadow: 3px 3px 10px rgba(141, 138, 138, 0.4);
+  }
+  ul>li{
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .card-ul{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .ul-div{
+    justify-content: center;
+    align-items: center;
+  }
+  .circle{
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    background-color: #f6f6f4;
+  }
+  .bg{
+    background-color: #f4f6fc;
+  }
